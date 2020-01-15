@@ -2,9 +2,7 @@ import React from "react";
 import {makeStyles} from "@material-ui/core";
 import DeleteIcon from '@material-ui/icons/Delete';
 import IconButton from "@material-ui/core/IconButton";
-import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
 import Container from "@material-ui/core/Container";
 
 const sameText = {
@@ -89,15 +87,3 @@ export default function Row(props) {
 }
 
 
-
-/*
-        <div className={clases.contenedor} onClick={() => window.open(props.data.story_url,"_blank")}>
-
-
-            <p className={clases.textTitle}>{props.data.story_title || props.data.title }</p>
-            <p className={clases.textAuthor}>- {props.data.author} - </p>
-            <p className={clases.textDate}>created_at</p>
-            <IconButton onClick={() => alert("asd")} edge="end" aria-label="delete">
-                <DeleteIcon/>
-            </IconButton>
-        </div>*/
